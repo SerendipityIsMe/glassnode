@@ -5,6 +5,6 @@ A simple Python connector for the Glassnode REST API with the free Standard plan
 - **glassnode.py** is the API connector itself 
 - **test.py** gives a simple example of its application. Run it and see.	
 
-The arguments of the connector are explained in the docstring of the function itself and should be simple to understand.
+The arguments of the connector are explained in the docstring of the function, and should be simple to understand.
 
-__Make sure you generate and plug in your own API key first, or it will not work!__
+__Make sure you generate and plug in your own API key first, or the connector will not work!__
