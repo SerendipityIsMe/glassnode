@@ -21,7 +21,7 @@ def glassnode(
     asset = 'BTC',
     status = False,
     headers = False,
-    resolution = '24h'
+    resolution = '24h',
     wait = 10
     ):
     '''Returns a Dataframe of time, value pairs for a metric from the Glassnode API.
@@ -43,7 +43,7 @@ def glassnode(
     headers : bool
         Option to print HTTP headers. Contains REST API request and response metadata.
     resolution : str
-        Resolution you receive the data in. Can be '10m', '1h', '24h', '1w' or '1month'.
+        Temporal resolution of the data received. Can be '10m', '1h', '24h', '1w' or '1month'.
     wait : float
         Seconds until the connection timeouts. ALWAYS specify a period.
 
