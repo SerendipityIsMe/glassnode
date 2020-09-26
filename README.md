@@ -1,6 +1,6 @@
 # Glassnode API Connector
 
-A simple Python connector for the Glassnode REST API with the free Standard plan (only 24h resolution). Accesses the endpoint for a given metric and returns a DataFrame with the time and metric values. 
+A simple Python connector for the Glassnode REST API. Accesses the endpoint for a given metric and returns a DataFrame with the time and metric values. 
 
 Be sure to see their [subscription plans](https://studio.glassnode.com/pricing) and their [API documentation](https://docs.glassnode.com/) first to understand how it works.
 
